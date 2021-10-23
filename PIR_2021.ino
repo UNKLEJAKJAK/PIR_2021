@@ -14,7 +14,7 @@ digitalRead(PIR);
 
 if ( digitalRead(PIR) == HIGH)
 {
-digitalWrite(LED, LOW);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(LED, HIGH);   // turn the LED on (HIGH is the voltage level)
 delay(5000);              // wait for a second
 digitalWrite(LED, LOW);    // turn the LED off by making the voltage LOW
 delay(5000);
